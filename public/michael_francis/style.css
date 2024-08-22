@@ -1,0 +1,38 @@
+body {
+    background-color:blueviolet;
+}
+
+h1 {
+    color: white;
+    background-color: indigo;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+}
+
+p{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 5px indigo;
+    border-radius: 3px;
+    width: 500px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+ul {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: indigo;
+    border: solid;
+    border-radius: 3px;
+    width: 200px;
+    padding: 20px;
+    
+}
