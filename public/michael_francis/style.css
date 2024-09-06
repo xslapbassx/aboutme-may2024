@@ -4,6 +4,7 @@ body {
     border-top: 0;
     border-bottom: 0; 
     height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
@@ -16,7 +17,7 @@ h1 {
     margin: auto;
 }
 
-p{
+p {
     color: white;
     background-color: indigo;
     display: flex;
@@ -28,7 +29,6 @@ p{
     width: 550px;
     margin: auto;
     font-size: 20px;
-
 }
 
 ul {
@@ -42,7 +42,19 @@ ul {
     border-radius: 20px;
     width: 200px;
     padding: 20px;
-    
+}
+
+.container {
+    color: white;
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 5px indigo;
+    border-radius: 20px;
+    width: 550px;
+    margin: auto;
+    font-size: 20px;
 }
 
 h2 {
@@ -52,30 +64,32 @@ h2 {
     justify-content: center;
     text-align: center;
     margin: auto;
-    width: 500px;
-    background-color: indigo;
-    border: solid indigo; 
-    border-radius: 20px;
-    padding: 20px;
+    padding: 0 0 10px 0;
 }
 
-div {
+p1 {
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+fieldset {
+    display: flex;
+    justify-content: center;
     text-align: left;
-    background-color: indigo;
-    margin: 10px auto;
+    margin: auto;
     width: 550px;
+    background-color: indigo;
+    color: white;
     border-radius: 20px;
+    padding: 10px;
 }
 
 button {
-    color: white;
-    background-color: blue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: centerS;
     margin: auto;
-    width: 550px;
-    padding: 20px;
-    border-radius: 20px;
 }
