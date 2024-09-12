@@ -1,95 +1,55 @@
 body {
-    background-color:rgb(183, 106, 255);
-    border: solid 150px rgb(33, 1, 56);
-    border-top: 0;
-    border-bottom: 0; 
+    display: flex;
+    flex-direction: column;
+    margin: 20px 150px 0 150px;
+    justify-content: center;
     height: 100vh;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 h1 {
-    color: white;
-    background-color: indigo;
     display: flex;
-    width: 550px;
-    border-radius: 20px;
     justify-content: center;
-    margin: auto;
+    background-color: gray;
+    border-radius: 5px;
 }
-
 p {
-    color: white;
-    background-color: indigo;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    border: solid 5px indigo;
-    border-radius: 20px;
-    padding: 3px;
-    width: 550px;
-    margin: auto;
-    font-size: 20px;
+    background-color: gray;
+    border-radius: 5px;
 }
-
 ul {
-    color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: auto;
-    background-color: indigo;
-    border: solid;
-    border-radius: 20px;
-    width: 200px;
-    padding: 20px;
-}
-
-.container {
-    color: white;
-    background-color: indigo;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: solid 5px indigo;
-    border-radius: 20px;
-    width: 550px;
-    margin: auto;
-    font-size: 20px;
+    background-color: gray;
+    border-radius: 5px;
 }
-
 h2 {
-    color: white;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
-    padding: 0 0 10px 0;
+    justify-content:center;
+    background-color: gray;
+    border-radius: 5px;
 }
-
 p1 {
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
+    display:flex;
     justify-content: center;
-   
+    background-color: gray;
+    border-radius: 5px;
 }
-
-fieldset {
+.container {
     display: flex;
     justify-content: center;
-    text-align: left;
-    margin: auto;
-    width: 550px;
-    background-color: indigo;
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-button {
-    display: flex;
     flex-direction: column;
+    background-color: gray;
+    border-radius: 5px;
+}
+.statements {
+    display: flex;
     justify-content: center;
-    margin: auto;
+    align-items: left;
+    background-color: gray;
+    border-radius: 5px;
 }
