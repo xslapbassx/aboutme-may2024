@@ -1,19 +1,27 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+
     <title>About Michael Francis</title>
+
   </head>
+
     <body>
+
         <main>
-        
+
           <h1>Michael Francis</h1>
 
-          <img src="aboutme-may2024\public\michael_francis\images\me.jpg" alt="Michael Francis"/>
+          <img src="images\me.jpg">
       
           <p>I'm a student in the web development pathway for the May 2024 cohort of the Code You program. I'm 33 years old, married, and have 2
-            wonderful children. My hobbies include:
-          </p>
+            wonderful children. My hobbies include:</p>
           <br>
 
           </br>
@@ -25,17 +33,87 @@
           <br>
 
           </br>
-          <div class="container">
+          
             <h2>Two Truths and a Lie</h2>
-            <p1>Can you guess the lie?</p1>
-            <br>
-            </br>
-            <div id="statements">
-                <!-- Statements will be dynamically added here -->
-            </div>
         
-            <div class="result" id="result"></div>
-        </div>
+            <p1>Can you guess the lie?</p1>
+
+            <div class="quiz-container" name="question">
+              <form id="quiz-form">
+                <!--Each question -->
+                <fieldset>
+              
+                  <legend>Question 1</legend>
+              
+                    <label>
+                      <span>I've played in a country band.</span>
+                      <input type="radio" name="question-1" value="a">
+                    </label><br></br>
+                    <label>
+                      <span>I've palyed in a funk band.</span>
+                      <input type="radio" name="question-1" value="b">
+                    </label><br></br>
+                    <label>
+                      <span>I've played in a metal band.</span>
+                      <input type="radio" name="question-1" value="c">
+                    </label>
+                    
+                </fieldset>
+
+                <fieldset>
+                
+                    <legend>Question 2</legend>
+                
+                      <label>
+                        <span>Became a published author when I was in 4th grade.</span>
+                        <input type="radio" name="question-2" value="d">
+                      </label><br></br>
+                      <label>
+                        <span>I've lived in multiple states.</span>
+                        <input type="radio" name="question-2" value="e">
+                      </label><br></br>
+                      <label>
+                        <span>Competed in a pizza making competition.</span>
+                        <input type="radio" name="question-2" value="f">
+                      </label>
+                      
+                  </fieldset>
+
+                  <fieldset>
+                
+                    <legend>Question 3</legend>
+                
+                      <label>
+                        <span>I've broken both my arms.</span>
+                        <input type="radio" name="question-3" value="g">
+                      </label><br></br>
+                      <label>
+                        <span>I have 10 cats.</span>
+                        <input type="radio" name="question-3" value="h">
+                      </label><br></br>
+                      <label>
+                        <span>I've been hit in the head by a baseball bat.</span>
+                        <input type="radio" name="question-3" value="i">
+                      </label>
+                      
+                  </fieldset>
+                <br>
+                </br>
+              
+                <!-- .... -->
+              
+              
+                <button type="submit">
+                  Submit
+                </button>
+                
+              
+                <div id="score">
+              
+                </div>
+              </form>
+              </div>
+            
           
         </main>
       <script src="script.js"></script>
@@ -44,35 +122,3 @@
 </html>
 
 
-<form>
-  <!--Each question -->
-  <fieldset>
-    
-    <label>
-      <span>I've played in a country band.</span>
-      <input type="radio" name="question-1" value="a"
-    </label><br></br>
-    <label>
-      <span>I've palyed in a funk band.</span>
-      <input type="radio" name="question-1" value="b"
-    </label><br></br>
-    <label>
-      <span>I've played in a metal band.</span>
-      <input type="radio" name="question-1" value="c"
-    </label>
-   
-  </fieldset>
-  <br>
-  </br>
-
-  <!-- .... -->
-
-
-  <button type="submit">
-    Submit
-  </button>
-
-  <div id="score">
-
-  </div>
-</form>

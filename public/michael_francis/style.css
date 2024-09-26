@@ -1,55 +1,98 @@
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 150px 0 150px;
-    justify-content: center;
-    height: 100vh;
+    margin: 20px 150px 20px 150px;
+    height: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    background: linear-gradient(slateblue, rgb(120, 202, 175));
+    background-size: cover;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height:300;
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 2px 2px 2px 2px;
 }
 
 h1 {
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: rgb(85, 64, 124);
+    width: 300px;
     border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 2px;
 }
+
 p {
     display: flex;
     justify-content: center;
-    background-color: gray;
+    width: 800px;
+    background-color: rgb(85, 64, 124);
+    margin: auto;
+    margin-top: 20px;
     border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px;
 }
+
 ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: gray;
+    width: 300px;
+    background-color: rgb(85, 64, 124);
     border-radius: 5px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px;
+}
+li {
+    padding: 5px;
 }
 h2 {
     display: flex;
     justify-content:center;
-    background-color: gray;
+    width: 300px;
+    background-color: rgb(85, 64, 124);
     border-radius: 5px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px;
 }
+
 p1 {
     display:flex;
     justify-content: center;
-    background-color: gray;
+    width: 300px;
+    background-color: rgb(85, 64, 124);
     border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px 2px;
 }
-.container {
+
+.quiz-container {
+    width: 800px;
+    background-color: rgb(85, 64, 124);
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+input {
+    float: left;
+    padding-right: 5px;
+}
+
+button { 
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: gray;
+    background-color: rgb(168, 168, 168);
+    font-size: large;
     border-radius: 5px;
+    margin: auto;
+   
 }
-.statements {
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    background-color: gray;
-    border-radius: 5px;
-}
+
